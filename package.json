@@ -1,0 +1,30 @@
+{
+  "name": "wifi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "bootswatch": "^4.5.0",
+    "gatsby": "^2.23.1",
+    "gatsby-plugin-react-helmet": "^3.3.3",
+    "gatsby-plugin-sass": "^2.3.3",
+    "node-sass": "^4.14.1",
+    "qrcode.react": "^1.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  }
+}
