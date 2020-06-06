@@ -9,13 +9,13 @@ export function App({ children }) {
       <Helmet>
         <script
           async
-          src="https://www.googletagmanager.com/gtag/js?id=UA-168697360-2"
+          src="https://www.googletagmanager.com/gtag/js?id=UA-168672716-1"
         />
         <script>{`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'UA-168697360-2');
+          gtag('config', 'UA-168672716-1');
         `}</script>
       </Helmet>
       {children}
